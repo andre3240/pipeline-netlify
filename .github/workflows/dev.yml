@@ -2,7 +2,7 @@ name: pipeline-de-deploy-dev
 
 on:
   workflow_dispatch:
-
+         branches: dev
 jobs:
   deploy:
     runs-on: ubuntu-latest

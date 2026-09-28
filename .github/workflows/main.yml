@@ -1,8 +1,8 @@
 name: pipeline-de-deploy
 
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
+         branches: [main]
 
 jobs:
   deploy:
